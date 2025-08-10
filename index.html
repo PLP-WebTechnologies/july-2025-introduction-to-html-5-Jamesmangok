@@ -1,0 +1,51 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Basic Web Page</title>
+  <meta name="description" content="A simple, accessible, and SEO-friendly web page built with HTML5 semantic tags." />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" aria-label="About section">About</a></li>
+        <li><a href="#services" aria-label="Services section">Services</a></li>
+        <li><a href="#contact" aria-label="Contact section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>This section provides information about our organization and mission. We strive to serve our community effectively and efficiently.</p>
+    </section>
+    
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <ul>
+        <li>Consulting</li>
+        <li>Support</li>
+        <li>Training</li>
+      </ul>
+    </section>
+    
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        <p>Email: <a href="mailto:info@example.com" aria-label="Send email to info@example.com">info@example.com</a></p>
+        <p>Phone: <a href="tel:+1234567890" aria-label="Call us at +1 234 567 890">+1 234 567 890</a></p>
+      </address>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+```
